@@ -270,50 +270,35 @@ plt.axis("off")
 (np.float64(-0.5), np.float64(940.5), np.float64(1535.5), np.float64(-0.5))
 ```
 ## Output:
-- **i)** Read and Display an Image.
-- ![image](https://github.com/user-attachments/assets/acb7c9c9-640c-4c59-ad0c-b5b9ebc7d125)
-
-- **ii)** Adjust Image Brightness.
-- ![image](https://github.com/user-attachments/assets/629b2d81-4aa5-4911-afda-1362236b6521)
- 
-- **iii)** Modify Image Contrast.
-- ![image](https://github.com/user-attachments/assets/42f1a068-fe64-49ae-a551-8c666364e82e)
-  
-- **iv)** Generate Third Image Using Bitwise Operations.
-- ![image](https://github.com/user-attachments/assets/45770523-76c3-4dd0-8126-60e0f60e440d)
- - **v)** Read 'Apollo-11-launch.jpg' and Display the final annotated image:
-![image](https://github.com/user-attachments/assets/f5df7777-e890-4129-8836-4eedb3be25aa)
-
-- ### **ii)** Adjust Image Brightness.
-
-1.Create brighter and darker images and display:
-
-![image](https://github.com/user-attachments/assets/b092a044-caca-4e2d-abe6-45b2e1de8ddf)
-
-- ### **iii)** Modify Image Contrast.  
-1. Modify contrast using scaling factors 1.1 and 1.2:
-
-![image](https://github.com/user-attachments/assets/52cf0e60-b786-4173-9c94-deccf59da25d)
+# Display the image using Matplotlib
+<img width="433" height="543" alt="Screenshot 2026-02-03 110808" src="https://github.com/user-attachments/assets/6dca5b52-6409-45e1-8ae0-99dc627f2ec8" />
 
 
-- ### **iv)** Generate Third Image Using Bitwise Operations.
-
-1.Split 'Boy.jpg' into B, G, R components and display:
-
-![image](https://github.com/user-attachments/assets/663f2c76-d281-4427-b5a5-e8695da16fa7)
+# Draw a line from top-left to bottom-right
+<img width="417" height="534" alt="Screenshot 2026-02-03 110814" src="https://github.com/user-attachments/assets/7c33ea0f-fd55-4acd-af83-741a9496e19a" />
 
 
-2.Merge the R, G, B channels and display:
+# HSV Image
+<img width="473" height="529" alt="Screenshot 2026-02-03 110839" src="https://github.com/user-attachments/assets/6474ff97-4868-441a-8c04-21a89e330981" />
 
-![image](https://github.com/user-attachments/assets/12fc4958-afaf-4178-9b7c-a8cbcde9669b)
 
-3.Split the image into H, S, V components and display:
+# Grayscale Image
+<img width="464" height="524" alt="Screenshot 2026-02-03 110844" src="https://github.com/user-attachments/assets/d6d64373-7060-4c41-99b2-397c335c3227" />
 
-![image](https://github.com/user-attachments/assets/6e55c163-01cf-4742-bd78-fc79b4ede809)
 
-4.Merge the H, S, V channels and display:
+# YCrCb Image
+<img width="426" height="533" alt="Screenshot 2026-02-03 110849" src="https://github.com/user-attachments/assets/f9f5bf3e-3068-48b8-a0a7-ad3476622976" />
 
-![image](https://github.com/user-attachments/assets/efc2fa31-893f-44cb-9ed8-f23a96e0e2fe)
+
+
+# Horizontal flip
+<img width="411" height="518" alt="Screenshot 2026-02-03 110920" src="https://github.com/user-attachments/assets/61391e33-2138-4a51-b935-d437e242e465" />
+
+# Vertical flip
+
+<img width="415" height="524" alt="Screenshot 2026-02-03 111004" src="https://github.com/user-attachments/assets/01eff6ca-222c-4d68-9afb-ade35a6fefee" />
+
+
 
 ## Result:
 Thus, the images were read, displayed, brightness and contrast adjustments were made, and bitwise operations were performed successfully using the Python program.
